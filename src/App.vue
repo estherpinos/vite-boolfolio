@@ -4,12 +4,11 @@ import axios from 'axios';
 import {store} from './data/store';
 
   export default{
+    
     name: 'App',
     data(){
       return{
-        title:'ciao'
-
-
+        title:'Welcome'
       }
     },
     methods:{
@@ -33,6 +32,6 @@ import {store} from './data/store';
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
 </style>
