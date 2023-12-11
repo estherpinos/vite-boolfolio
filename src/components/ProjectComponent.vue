@@ -14,7 +14,9 @@
 </script>
 
 <template>
-  <div></div>
+  <div>
+    <h1>I miei projects</h1>
+  </div>
 </template>
 
 <style lang="scss" scoped>

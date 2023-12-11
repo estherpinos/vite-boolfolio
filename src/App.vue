@@ -2,13 +2,18 @@
 
 import axios from 'axios';
 import {store} from './data/store';
+import ProjectComponent from './components/ProjectComponent.vue';
 
   export default{
-    
+
     name: 'App',
+    components:{
+    ProjectComponent  
+    },
+
     data(){
       return{
-        title:'Welcome'
+        title:'Projects'
       }
     },
     methods:{
@@ -27,8 +32,8 @@ import {store} from './data/store';
 
 <template>
   
-  <div>
-    <h1>{{title}}</h1>
+  <div class="container">
+    <ProjectComponent/>  
   </div>
 </template>
 
